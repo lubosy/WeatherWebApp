@@ -1,0 +1,111 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+section{
+    position: relative;
+    min-height: 100vh;
+    background: url('./img/pexels-pixabay-33044.jpg') no-repeat center center/cover ;
+}
+
+.container{
+    margin:  0 14px;
+}
+
+.promotext{
+    padding-top: 10%;
+    color:white;
+    /* text-shadow: 1px 1px 11px grey; */
+}
+
+.promotext h3{
+    font-size: 4rem;
+line-height: 1;
+}
+
+.promotext p{
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.login{
+    position:absolute;
+    padding: 50px 80px;
+    text-align: center;
+    right: 15%;
+    bottom: 20%;
+    box-shadow: 3px 6px 30px 8px rgba(54, 71, 22, 0.904);
+    background:rgb(144, 168, 33);
+    height: 60%;
+   
+
+}
+
+.login h4{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.login p{
+    font-size: 18px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.inputbox{
+    position: relative;
+    margin-bottom: 50px;
+    
+}
+.inputbox input, .inputbox textarea{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: white;
+    border: none;
+    border-bottom: 1px solid;
+    background-color: transparent;
+    padding: 4px 3px;
+    outline:none;
+
+}
+
+.inputbox span{
+    position: absolute;
+    left: 2px;
+    bottom: 40px;
+    letter-spacing: 1px;
+    color:white;
+
+}
+button{
+    position: relative;
+    cursor:pointer;
+    background: greenyellow;
+    color: black;
+    border: none;
+    font-size: 20px;
+    padding: 20px 30px;
+    text-transform:uppercase;
+    border-radius: 50px;
+}
+
+@media (max-width: 800px) {
+    
+
+    .promotext h3{
+font-size: 3rem;
+color: black;
+    }
+    .promotext p{
+        display: none;
+    } 
+}

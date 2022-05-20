@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Dashboard</title>
+
+</head>
+<body>
+    <div class="container">
+        <div class="topbar">
+            <div class="logo">
+                <h2>Admin</h2>
+            </div>
+            <div class="search">
+                <input type="text" id="search" placeholder="">
+                
+        </div>
+        <!-- <i class="fas fa-bell"></i> -->
+           <div class="user">
+               <h2>Lubosi Amatende </h2>
+           </div>
+           
+        </div>
+            <div class="sidebar">
+                <ul>
+                    <li>
+                        <a href=" ">
+                            <i class="fas fa-th-large"></i>
+                            <div>Dashboard</div>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+                <div class="main">
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="number" id="currentTime"></div>
+                            <div class="card-name">Time</div>
+                            <div class="icon-box">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="number" id="currentTemp"></div>
+                            <div class="card-name">Temperature</div>
+                            <div class="icon-box">
+                                <i class="fas fa-thermometer-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="number" id="currentHumidity"></div>
+                            <div class="card-name">Humidity</div>
+                        </div>
+                            <div class="icon-box">
+                                <i class="fas-solid fa-droplet-percent"></i>
+                            </div>
+                        
+                    </div>
+                </div>
+                <div class="charts">
+                    <div class="chart">
+                        <h2>Temprature and Humidity</h2>
+                        <canvas id="lineChart"></canvas>
+                    </div>
+                    <!-- <div class="chart" >
+                        <h2>Humidity</h2>
+                        <canvas id="lineChart2"></canvas>
+                    </div> -->
+                </div>  
+                </div>        
+    </div>
+    <footer class="footer">
+        <p>Lubosi Amatende 2017009278</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+<script src="chart.js"></script>
+</body>
+</html>
